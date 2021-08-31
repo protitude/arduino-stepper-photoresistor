@@ -1,2 +1,2 @@
-# arduino-stepper-photoresistor
-Arduino code using a stepper motor to progressively turn a roll with different eyes on it depending on the light level.
+# Arduino code for stepper motor and with a photoresistor
+This code controls a stepper motor adapted from this [tutorial](https://learn.adafruit.com/adafruit-arduino-lesson-16-stepper-motors/overview), in my case controlling a roller with different eyes. This changes the eyes depending on the lighting using a photoresistor adapted from this [tutorial](https://create.arduino.cc/projecthub/MisterBotBreak/how-to-use-a-photoresistor-46c5eb). The last state will be saved to the arduino using the EEPROM adapted from this [article](https://roboticsbackend.com/how-to-save-values-on-arduino-with-eeprom/)
